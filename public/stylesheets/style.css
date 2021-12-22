@@ -1,0 +1,174 @@
+@font-face {
+  src: url('../font/Quicksand/Quicksand-Medium.ttf');
+  font-family: 'Quicksand-Medium';
+}
+
+@font-face {
+  src: url("../font/Quicksand/Quicksand-Bold.ttf");
+  font-family: "Quicksand-Bold";
+}
+
+@font-face {
+  src: url('../font/Quicksand/Quicksand-Regular.ttf');
+  font-family: 'Quicksand-Regular';
+}
+
+@font-face {
+  src: url("../font/Quicksand/Quicksand-Light.ttf");
+  font-family: "Quicksand-Light";
+}
+
+@font-face {
+  src: url("../font/Ubuntu/Ubuntu-Light.ttf");
+  font-family: "Ubuntu-Light";
+}
+
+@font-face {
+  src: url("../font/Ubuntu/Ubuntu-Regular.ttf");
+  font-family: "Ubuntu-Regular";
+}
+
+@font-face {
+  src: url("../font/Ubuntu/Ubuntu-Medium.ttf");
+  font-family: "Ubuntu-Medium";
+}
+
+@font-face {
+  src: url("../font/Ubuntu/Ubuntu-Bold.ttf");
+  font-family: "Ubuntu-Bold";
+}
+
+@font-face {
+  src: url("../font/roboto/Roboto-Regular.ttf");
+  font-family: "Roboto-Regular";
+}
+
+@font-face {
+  src: url("../font/roboto/Roboto-Light.ttf");
+  font-family: "Roboto-Light";
+}
+
+@font-face {
+  src: url("../font/roboto/Roboto-Medium.ttf");
+  font-family: "Roboto-Medium";
+}
+
+@font-face {
+  src: url('../font/Lato/Lato-Black.ttf');
+  font-family: "Lato-Black";
+}
+
+@font-face {
+  src: url('../font/Lato/Lato-Bold.ttf');
+  font-family: "Lato-Bold";
+}
+
+@font-face {
+  src: url('../font/Lato/Lato-Hairline.ttf');
+  font-family: "Lato-Hairline";
+}
+
+@font-face {
+  src: url('../font/Lato/Lato-Italic.ttf');
+  font-family: "Lato-Italic";
+}
+
+@font-face {
+  src: url('../font/Lato/Lato-Light.ttf');
+  font-family: "Lato-Light";
+}
+
+@font-face {
+  src: url('../font/Lato/Lato-Regular.ttf');
+  font-family: "Lato-Regular";
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+#head-banner {
+  text-decoration: underline;
+  letter-spacing: 1px;
+  padding: 20px 50px;
+  margin: 0px 0px 40px;
+  font-family: 'Quicksand-Regular';
+  box-shadow: 1px 4px 14px 1px rgba(0, 0, 0, 0.1);
+}
+
+#source-upload-cont {
+  border: 1px solid rgba(69, 22, 255, 0.2);
+  display: inline-block;
+  margin: 10px 50px;
+  box-shadow: 1px 2px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+#source-upload-form::-webkit-file-upload-button {
+  font-family: 'Quicksand-Bold';
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  font-size: 16px;
+  background-color: white;
+  box-shadow: 1px 4px 14px 1px rgba(0, 0, 0, 0.1);
+}
+
+#source-upload-form {
+  margin: 10px;
+  display: block;
+  border: none;
+  font-family: 'Quicksand-Bold';
+}
+
+#source-upload-btn {
+  margin: 10px;
+  display: block;
+  font-family: 'Quicksand-Bold';
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  font-size: 16px;
+  background-color: white;
+  box-shadow: 1px 4px 14px 1px rgba(0, 0, 0, 0.1);
+}
+
+#loc-output {
+  font-family: 'Quicksand-Medium';
+  margin-top: 40px;
+}
+
+#loc-output p {
+  padding: 10px;
+  margin: 2px 0px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr:first-child {
+  background-color: #093154;
+  color: white;
+  font-family: 'Quicksand-Regular';
+}
+
+td:first-child {
+  max-width: 400px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+#selected-files-cont {
+  font-size: 15px;
+  font-family: 'Quicksand-Medium';
+  width: 90%;
+  max-width: 900px;
+  margin: 20px 50px;
+  box-shadow: 1px 4px 14px 1px rgba(0, 0, 0, 0.05);
+}

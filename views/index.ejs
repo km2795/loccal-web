@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='stylesheets/style.css' />
+  </head>
+  <body>
+    <h1 id="head-banner">Lines of Code Calculator</h1>
+    <div id="source-upload-cont">
+      <form id="source-form" method="post" enctype="multipart/form-data">
+        <input type="file" name="source-upload" id="source-upload-form" multiple /><br>
+        <input type="submit" value="Check LOC" id="source-upload-btn" />
+      </form>
+      <div id="loc-output"></div>
+    </div>
+    <table id="selected-files-cont">
+      <tr>
+        <th>Name</th>
+        <th>Type</th>
+        <th>Size</th>
+        <th>LOC</th>
+      </tr>
+    </table>
+  </body>
+
+  <script src="javascripts/file_upload.js"></script>
+</html>

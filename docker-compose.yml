@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+
+  loccal:
+    image: "loccal:latest"
+    container_name: "loccal"
+    ports:
+      - 7903:7903
+    restart: always
